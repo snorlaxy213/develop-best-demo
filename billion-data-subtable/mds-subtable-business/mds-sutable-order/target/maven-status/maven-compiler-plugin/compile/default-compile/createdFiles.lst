@@ -1,8 +1,0 @@
-cn\vino\mds\subtable\order\domain\entity\convertor\TradeOrderConvertor.class
-cn\vino\mds\subtable\order\domain\entity\TradeOrderStream.class
-cn\vino\mds\subtable\order\infrastructure\mapper\OrderStreamMapper.class
-cn\vino\mds\subtable\order\infrastructure\mapper\OrderMapper.class
-cn\vino\mds\subtable\order\domain\entity\TradeOrder.class
-cn\vino\mds\subtable\order\MdsSubtableOrderApplication.class
-cn\vino\mds\subtable\order\domain\service\OrderReadService.class
-cn\vino\mds\subtable\order\domain\entity\statemachine\OrderStateMachine.class

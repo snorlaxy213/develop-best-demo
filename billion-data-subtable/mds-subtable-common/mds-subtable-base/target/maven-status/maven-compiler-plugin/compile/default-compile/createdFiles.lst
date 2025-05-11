@@ -1,6 +1,0 @@
-cn\vino\mds\subtable\base\statemachine\BaseStateMachine.class
-cn\vino\mds\subtable\base\exception\BizErrorCode.class
-cn\vino\mds\subtable\base\exception\BizException.class
-cn\vino\mds\subtable\base\statemachine\StateMachine.class
-cn\vino\mds\subtable\base\request\BaseRequest.class
-cn\vino\mds\subtable\base\exception\ErrorCode.class
