@@ -1,0 +1,16 @@
+# 这是项目的需要改动的所有配置的地址的汇总，需要改哪个中间件的地址，在本文件中修改即可！
+nft:
+  turbo:
+    mysql:
+        url: jdbc:mysql://127.0.0.1:3306/nfturbo # nft.turbo.mysql.url - MySQL 的地址+数据库配置 #首次启动前务必修改成你自己的
+        username: nfturbo # nft.turbo.mysql.username - MySQL 的用户名 #首次启动前务必修改成你自己的
+        password: 'nfturbo' # nft.turbo.mysql.password - MySQL 的密码 #首次启动前务必修改成你自己的
+    redis:
+        url: 127.0.0.1  # nft.turbo.redis.url - Redis 的地址 #首次启动前务必修改成你自己的
+        port: 6379  # nft.turbo.redis.port - Redis 的端口号 #首次启动前务必修改成你自己的
+        password: 'nfturbo' # nft.turbo.redis.password - Redis 的密码 #首次启动前务必修改成你自己的
+    elasticsearch:
+      enable: true # nft.turbo.elasticsearch.enable #如果你要使用es(没有启动一键mock)，这里需要改成true
+      url: 127.0.0.1:9200 # nft.turbo.elasticsearch.url - ElasticSearch 的地址+端口号 ##如果你要使用es(没有启动一键mock)，这里需要改成true
+      username: elastic # nft.turbo.elasticsearch.username - ElasticSearch 的用户名 ##如果你要使用es(没有启动一键mock)，这里需要改成true
+      password: 123456  # nft.turbo.elasticsearch.password - ElasticSearch 的密码 ##如果你要使用es(没有启动一键mock)，这里需要改成true

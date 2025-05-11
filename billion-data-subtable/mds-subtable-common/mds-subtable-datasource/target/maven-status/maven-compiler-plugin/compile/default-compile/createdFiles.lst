@@ -1,0 +1,3 @@
+cn\vino\mds\subtable\datasource\config\DatasourceConfiguration.class
+cn\vino\mds\subtable\datasource\domain\entity\BaseEntity.class
+cn\vino\mds\subtable\datasource\handler\DataObjectHandler.class
